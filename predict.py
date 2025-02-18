@@ -2,6 +2,7 @@
 # https://cog.run/python
 from cog import BasePredictor, Input, Path
 from PIL import Image
+import torch
 
 class Predictor(BasePredictor):
     def setup(self):
